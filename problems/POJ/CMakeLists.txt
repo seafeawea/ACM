@@ -1,0 +1,1 @@
+add_executable(1979_red_and_black 1979_red_and_black.cpp)

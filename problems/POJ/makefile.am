@@ -1,3 +1,0 @@
-bin_PROGRAMS = 1979_red_and_black
-
-1979_red_and_black_SOURCES = 1979_red_and_black.cpp

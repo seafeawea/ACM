@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
@@ -22,10 +23,10 @@ int main(int argc, char **argv) {
         if (W == 0 && H == 0) break;
         for (int i = 0; i < H; i++) {
             for (int j = 0; j < W; j++) {
-                scanf("%c",&tiles[i][j]);
+                cin >> tiles[i][j];
             }
         }
-        printTiles();
+        //printTiles();
     }
     return 0;
 }
